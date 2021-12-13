@@ -1,0 +1,76 @@
+h1 {
+  color: darkblue;
+  font-weight: 900;
+  font-size: 300%;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+.navLink{
+  font-size: 130%;
+}
+header {
+  background-color: lightskyblue;
+  margin: 0px;
+  padding: 0px;
+  height: 10%;
+  width: 100vw;
+}
+
+ul {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
+}
+li:last-child {
+}
+
+a{
+  color: #4D84C4;
+  text-decoration: none;
+}
+.title {
+  order: 0;
+  flex-basis: 70%;
+  text-align: center;
+}
+.locationCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: black 1px solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+.image{
+  flex: 1;
+  padding-left: 5%;
+}
+
+.imageCard{
+  max-width: 100%;
+}
+.descriptionBox{
+  flex: 3;
+  padding: 2%;
+}
+.mapContainer {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  height: 500px;
+  width: 80%;
+}
