@@ -1,47 +1,99 @@
-h1 {
-  color: darkblue;
-  font-weight: 900;
-  font-size: 300%;
-  margin-left: 0;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+body{
+  margin: 0;
   padding: 0;
 }
-.navLink{
-  font-size: 130%;
+
+.App {
+  text-align: center;
 }
+
 header {
   background-color: lightskyblue;
-  margin: 0px;
-  padding: 0px;
-  height: 10%;
-  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  padding: 0;
+  margin: 0;
+}
+.title h1 {
+  color: darkblue;
+  font-weight: 900;
+  font-size: 200%;
 }
 
 ul {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-li {
+  text-align: center;
   list-style-type: none;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  padding-right: 1rem;
 }
-li:last-child {
+li {
+  margin: 0;
+  display: inline-block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-
-a{
+a {
+  margin: 0;
   color: #4D84C4;
+  display: block;
   text-decoration: none;
 }
+
+.navLink:hover {
+  background-color: rgb(15, 83, 114);
+}
+.active {
+  background-color: darkblue;
+}
+
+
+.pageTitle {
+  font-weight: 900;
+  font-size: 300%;
+  padding-bottom: 0;
+  margin-bottom: 1%;
+}
+
+input {
+  width: 50%;
+  height: 2%;
+  padding: 6px;
+  border: 1px black solid;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+button {
+  border: none;
+  color: white;
+  padding: 7% 7% 7% 7%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+}
+.add {
+  background-color: #4CAF50;
+}
+
+.remove {
+  background-color: rgb(175, 76, 76);
+}
+
+
+
 .title {
-  order: 0;
   flex-basis: 70%;
   text-align: center;
 }
@@ -50,23 +102,66 @@ a{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  border: black 1px solid;
+  border: black 2px solid;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 3%;
+  margin-bottom: 1%;
 }
-.image{
-  flex: 1;
-  padding-left: 5%;
+.imageContainer{
+  flex-grow: 1;
+  width: 30%;
+  padding: 0;
+  margin: 0;
 }
-
 .imageCard{
+  margin: 0 3% 0 3%;
+  padding: 0;
   max-width: 100%;
 }
-.descriptionBox{
-  flex: 3;
+.descriptionContainer {
+  width: 60%;
+  flex-grow: 3;
   padding: 2%;
 }
+.buttonContainer {
+  width: 10%;
+  flex-grow: 1;
+  width: 10%;
+}
+
+
+
+
+.locationImage {
+  margin-top: 3%;
+  max-height: 60vh;
+}
+.removeLocation {
+  background-color: rgb(175, 76, 76);
+  padding: 7px 7px 7px 7px;
+}
+.addLocation {
+  background-color: #4CAF50;
+  padding: 7px 7px 7px 7px;
+}
+.description {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.locationMap {
+  height: 400px;
+  margin-top: 3%;;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+
+.mapText {
+  display: flex;
+  height: 500px;
+}
+
 .mapContainer {
   margin-left: 10%;
   margin-right: 10%;
