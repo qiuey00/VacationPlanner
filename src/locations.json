@@ -1,0 +1,54 @@
+[
+  {
+    "key": "1",
+    "location": "Harvard University",
+    "cityState": "Cambridge, MA",
+    "latitude": "42.3770",
+    "longitude": "-71.1167",
+    "image": {
+      "url": "https://image.cnbcfm.com/api/v1/image/106604493-1594057373282harvarduniversitysdunsterhouseincambridgema.jpg?v=1594057738",
+      "alt": "Harvard University"
+    },
+    "blurb": "Harvard University is a private Ivy League research university in Cambridge, Massachusetts",
+    "description": "Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States and among the most prestigious in the world."
+  },
+  {
+    "key": "2",
+    "location": "Boston City Hall",
+    "cityState": "Boston, MA",
+    "latitude": "42.3604",
+    "longitude": "-71.0580",
+    "image": {
+      "url": "https://static.dezeen.com/uploads/2019/10/boston-city-hall-renovation-brutalism-architecture-interiors-usa_dezeen_2364_hero.jpg",
+      "alt": "Boston City Hall"
+    },
+    "blurb": "Boston City Hall is the seat of city government of Boston, Massachusetts.",
+    "description": "ston City Hall is the seat of city government of Boston, Massachusetts. It includes the offices of the mayor of Boston and the Boston City Council. The current hall was built in 1968 to assume the functions of the Old City Hall."
+  },
+  {
+    "key": "3",
+    "location": "Fenway Park",
+    "cityState": "Boston, MA",
+    "latitude": "42.3467",
+    "longitude": "-71.0972",
+    "image": {
+      "url": "https://media.cntraveler.com/photos/5b4cf9b1bc8649092721971d/16:9/w_2560,c_limit/Fenway-Park_GettyImages-576881804.jpg",
+      "alt": "Fenway Park"
+    },
+    "blurb": "Fenway Park is a baseball park located in Boston, Massachusetts, near Kenmore Square.",
+    "description": "Fenway Park is a baseball park located in Boston, Massachusetts, near Kenmore Square. Since 1912, it has been the home for the Boston Red Sox, the city's American League baseball team, and since 1953, its only Major League Baseball (MLB) franchise. While the stadium was built in 1912, it was substantially rebuilt in 1934,[9] and underwent major renovations and modifications in the 21st century. It is the oldest active ballpark in MLB.[10] Because of its age and constrained location in Boston's dense Fenway–Kenmore neighborhood, the park has many quirky features, including 'The Triangle', Pesky's Pole, and the Green Monster in left field. It is the fifth-smallest among MLB ballparks by seating capacity, second-smallest by total capacity, and one of eight that cannot accommodate at least 40,000 spectators."
+  },
+  {
+    "key": "4",
+    "location": "Golden Gate Bridge",
+    "cityState": "San Francisco, CA",
+    "latitude": "37.8199",
+    "longitude": "-122.4783",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Golden_Gate_Bridge_2021.jpg/600px-Golden_Gate_Bridge_2021.jpg",
+      "alt": "Golden Gate Bridge"
+    },
+    "blurb": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean. ",
+    "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide (1.6 km) strait connecting San Francisco Bay and the Pacific Ocean. The structure links the U.S. city of San Francisco, California—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across the strait. It also carries pedestrian and bicycle traffic, and is designated as part of U.S. Bicycle Route 95. Being declared one of the Wonders of the Modern World by the American Society of Civil Engineers,[7] the bridge is one of the most internationally recognized symbols of San Francisco and California. It was initially designed by engineer Joseph Strauss in 1917."
+  }
+]
